@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content='width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes'>
-    <title>Unity WebGL Player | Imagine WebAR</title>
+    <title>Unity WebGL Player | Imagine WebAR2</title>
     <link rel="stylesheet" href="TemplateData/style.css">
     <style>
          html{
@@ -55,7 +55,7 @@
             </div>
         </div>
     </div>
-    <script src="Build/Build_chou.loader.js"></script>
+    <script src="Build/Build.loader.js"></script>
     <script>
             var container = document.querySelector("#unity-container");
             var canvas = document.querySelector("#unity-canvas");
@@ -73,12 +73,12 @@
                 document.getElementById("startWebcamDiv").style.display = "none";
 
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/Build_chou.data",
-                    frameworkUrl: "Build/Build_chou.framework.js",
-                    codeUrl: "Build/Build_chou.wasm",
+                    dataUrl: "Build/Build.data",
+                    frameworkUrl: "Build/Build.framework.js",
+                    codeUrl: "Build/Build.wasm",
                     streamingAssetsUrl: "StreamingAssets",
-                    companyName: "FABU DESIGN SDN BHD",
-                    productName: "Imagine WebAR",
+                    companyName: "DefaultCompany",
+                    productName: "Imagine WebAR2",
                     productVersion: "0.1",
                     //webglContextAttributes: { "preserveDrawingBuffer": true },
                     // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
